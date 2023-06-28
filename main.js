@@ -66,3 +66,54 @@ document.querySelector(".set6").innerHTML = da;
 const setYearS = da.setMilliseconds(200);
 console.log(da);
 document.querySelector(".set7").innerHTML = da;
+//Math Methods//
+document.querySelector(".head3").innerHTML = "Math Methods";
+const a = Math.round(9.2);
+console.log(a);
+document.querySelector(".math").innerHTML = a;
+const b = Math.round(-9.8);
+console.log(b);
+document.querySelector(".math1").innerHTML = b;
+
+const c = Math.ceil(6.6);
+console.log(c);
+document.querySelector(".math2").innerHTML = c;
+const e = Math.ceil(-5.3);
+console.log(e);
+document.querySelector(".math3").innerHTML = e;
+
+const f = Math.floor(6.6);
+console.log(f);
+document.querySelector(".math4").innerHTML = f;
+const g = Math.floor(-5.3);
+console.log(g);
+document.querySelector(".math5").innerHTML = g;
+
+const h = Math.random();
+console.log(h);
+document.querySelector(".math6").innerHTML = h;
+const i = Math.random(5);
+console.log(i);
+document.querySelector(".math7").innerHTML = i;
+
+const j = Math.sqrt(625);
+console.log(j);
+document.querySelector(".math8").innerHTML = j;
+const k = Math.sqrt(169);
+console.log(k);
+document.querySelector(".math9").innerHTML = k;
+
+const l = Math.pow(9,3);
+console.log(l);
+document.querySelector(".math10").innerHTML = l;
+const m = Math.pow(3,5);
+console.log(m);
+document.querySelector(".math11").innerHTML = m;
+
+const n = Math.abs(6.6);
+console.log(n);
+document.querySelector(".math12").innerHTML = n;
+const o = Math.abs(-5.3);
+console.log(o);
+document.querySelector(".math13").innerHTML = o;
+
